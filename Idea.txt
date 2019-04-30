@@ -1,0 +1,18 @@
+Muttagen
+
+Greasemonkey script that adds Mutt shortcuts to Gmail.
+
+- Remove right sidebar
+- Make left sidebar togglable
+- Compose (m)
+- Reply (r, g)
+- Send (<C-y>)
+- Next/previous message (j/k)
+- Scroll ([/]) (<CR>/<BS>)
+- Next/previous page ({/})?
+- Close message view/pager (q, i)
+- Search (/)
+- Number keys + <CR> open a message by ID
+- Labels/folders?
+- Start (t)
+- Mark as read/unread (N)
