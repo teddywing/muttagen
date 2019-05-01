@@ -6,4 +6,8 @@
 // ==/UserScript==
 
 import './style';
-import './sidebar';
+import sidebar from './sidebar';
+
+window.setTimeout(function() {
+	sidebar();
+}, 3000);
