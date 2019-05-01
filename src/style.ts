@@ -4,6 +4,7 @@ type GmailCSSDefinitions = { [selector in g.GmailCSSClass]: string };
 
 var css: GmailCSSDefinitions = {};
 css[g.TOOLS_PANEL] = 'display: none;';
+css[g.SIDEBAR] = 'display: none;';
 css[g.MESSAGE_PAGER] = 'filter: invert(100%);';
 
 function construct_css(css: GmailCSSDefinitions): string {
