@@ -7,6 +7,7 @@ export default function() {
 
 	var sidebar: HTMLElement = document.getElementsByClassName(SIDEBAR)[0] as HTMLElement;
 
+	// Toggle left sidebar with `\m`
 	multi_key_command(
 		document,
 		[key_codes.SLASH, key_codes.M],
