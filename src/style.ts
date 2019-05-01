@@ -26,6 +26,8 @@ function append_css(css: string): void {
 	document.head.appendChild(s);
 }
 
-append_css(
-	construct_css(css)
-);
+export default function(): void {
+	append_css(
+		construct_css(css)
+	);
+};

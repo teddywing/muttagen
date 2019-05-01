@@ -5,9 +5,17 @@
 // @match https://mail.google.com/*
 // ==/UserScript==
 
-import './style';
+import style from './style';
 import sidebar from './sidebar';
 
-window.setTimeout(function() {
-	sidebar();
-}, 3000);
+var loading_view = document.getElementById('loading');
+
+// Wait until loading view disappears before initialising
+var initialize = window.setInterval(function() {
+	if (loading_view.offsetParent === null) {
+		window.clearInterval(initialize);
+
+		style();
+		sidebar();
+	}
+}, 500);
