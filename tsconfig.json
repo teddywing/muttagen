@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"module": "amd",
 		"target": "ES5",
-		"outFile": "./build/index.js",
+		"outFile": "./build/muttagen.user.js",
 		"sourceMap": true
 	},
 	"files": [
