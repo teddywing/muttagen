@@ -1,4 +1,4 @@
-import { SIDEBAR } from './gmail_css_class';
+import { SIDEBAR } from './gmail_selectors';
 import key_codes from './key_codes';
 import multi_key_command from './multi_key_command';
 

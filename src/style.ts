@@ -1,4 +1,4 @@
-import * as g from './gmail_css_class';
+import * as g from './gmail_selectors';
 
 type GmailCSSDefinitions = { [selector in g.GmailCSSClass]: string };
 
