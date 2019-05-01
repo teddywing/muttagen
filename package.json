@@ -1,0 +1,9 @@
+{
+  "name": "muttagen",
+  "version": "0.0.1",
+  "description": "Gmail user script providing Mutt features",
+  "private": true,
+  "dependencies": {
+    "typescript": "^3.4.5"
+  }
+}
