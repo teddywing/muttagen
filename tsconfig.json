@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"module": "amd",
+		"target": "ES5",
+		"outFile": "./build/index.js",
+		"sourceMap": true
+	},
+	"files": [
+		"index.ts"
+	]
+}
