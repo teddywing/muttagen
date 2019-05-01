@@ -5,4 +5,5 @@
 // @match https://mail.google.com/*
 // ==/UserScript==
 
-import "./style.ts";
+import './style';
+import './sidebar';

@@ -1,8 +1,8 @@
 {
 	"compilerOptions": {
-		"module": "amd",
+		"module": "commonjs",
 		"target": "ES5",
-		"outFile": "./build/muttagen.user.js",
+		"outDir": "./build",
 		"sourceMap": true
 	},
 	"include": [
