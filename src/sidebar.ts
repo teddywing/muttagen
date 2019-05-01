@@ -1,11 +1,7 @@
 import { SIDEBAR } from './gmail_css_class';
+import key_codes from './key_codes';
 
 export default function() {
-	var key_codes: { [index: string]: number } = {
-		SLASH: 220,
-		M: 77
-	}
-
 	var key_buffer: number[] = [];
 
 	var sidebar: HTMLElement = document.getElementsByClassName(SIDEBAR)[0] as HTMLElement;
@@ -33,4 +29,4 @@ export default function() {
 			key_buffer = [];
 		}
 	});
-})
+};
