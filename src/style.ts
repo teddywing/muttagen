@@ -1,15 +1,10 @@
-type GmailCSSClass = string;
+import * as g from './gmail_css_class.ts';
 
-const TOOLS_PANEL: GmailCSSClass = 'bAw';
-const SIDEBAR: GmailCSSClass = 'aeN';
-const MESSAGE_PAGER: GmailCSSClass = 'AO';
-
-
-type GmailCSSDefinitions = { [selector in GmailCSSClass]: string };
+type GmailCSSDefinitions = { [selector in g.GmailCSSClass]: string };
 
 var css: GmailCSSDefinitions = {};
-css[TOOLS_PANEL] = 'display: none;';
-css[MESSAGE_PAGER] = 'filter: invert(100%);';
+css[g.TOOLS_PANEL] = 'display: none;';
+css[g.MESSAGE_PAGER] = 'filter: invert(100%);';
 
 function construct_css(css: GmailCSSDefinitions): string {
 	var joined = '';
