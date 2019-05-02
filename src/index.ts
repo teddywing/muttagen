@@ -7,6 +7,7 @@
 
 import style from './style';
 import sidebar from './sidebar';
+import pager from './pager';
 
 var loading_view = document.getElementById('loading');
 
@@ -17,5 +18,6 @@ var initialize = window.setInterval(function() {
 
 		style();
 		sidebar();
+		pager();
 	}
 }, 500);
