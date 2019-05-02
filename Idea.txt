@@ -16,3 +16,4 @@ Greasemonkey script that adds Mutt shortcuts to Gmail.
 - Labels/folders?
 - Start (t)
 - Mark as read/unread (N)
+- Download email (d)
